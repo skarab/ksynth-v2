@@ -1,0 +1,23 @@
+     ___
+     \_/      .demotool.
+    /___\     .ksynth-v2.
+   /(o.o)\    .knights' storm.
+   (_| |_)    .l_skarab@hotmail.com. 
+   / .|. \    .http://skarab24.kstorm.tk.
+ ----------------------------------------------------
+ about
+ ----------------------------------------------------
+   KSynth-V2 is a 4k framework which can be used
+  easily to create some simple 4k. This includes :
+  a complete synth (tracker & player), the required
+  initialisation of opengl's window, and a little
+  sample (basic music but for other samples look at
+  Darkcity / noyel2k5 / ktrix). I know that this
+  framework is big and take lot of place in a 4k,
+  but it's verry easy to use and I think it could 
+  help some people to start 4k creation.
+  Crinkler V04 copyright by Aske Simon Christensen 
+  "Blueberry/Loonies" and Rune L.H.Stubbe "Mentor/TBC"
+  is included in this framework, just to show how
+  the intro sample has been compressed.
+ ----------------------------------------------------

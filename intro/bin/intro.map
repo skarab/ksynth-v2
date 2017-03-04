@@ -1,0 +1,136 @@
+ intro
+
+ Timestamp is 43baa357 (Tue Jan 03 17:16:23 2006)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000080H .idata$5                DATA
+ 0001:00000080 000000b8H .rdata                  DATA
+ 0001:00000140 0000108cH .text                   DATA
+ 0001:000011cc 00000078H .idata$2                DATA
+ 0001:00001244 00000014H .idata$3                DATA
+ 0001:00001258 00000080H .idata$4                DATA
+ 0001:000012d8 00000194H .idata$6                DATA
+ 0001:0000146c 00000000H .edata                  DATA
+ 0002:00000000 00000470H .data                   DATA
+ 0002:00000470 00089fb8H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       __imp__DirectSoundCreate@12 00401000     dsound:DSOUND.dll
+ 0001:00000004       \177DSOUND_NULL_THUNK_DATA 00401004     dsound:DSOUND.dll
+ 0001:00000008       __imp__ChoosePixelFormat@8 00401008     gdi32:GDI32.dll
+ 0001:0000000c       __imp__SetPixelFormat@12   0040100c     gdi32:GDI32.dll
+ 0001:00000010       __imp__SwapBuffers@4       00401010     gdi32:GDI32.dll
+ 0001:00000014       \177GDI32_NULL_THUNK_DATA  00401014     gdi32:GDI32.dll
+ 0001:00000018       __imp__GetTickCount@0      00401018     kernel32:KERNEL32.dll
+ 0001:0000001c       \177KERNEL32_NULL_THUNK_DATA 0040101c     kernel32:KERNEL32.dll
+ 0001:00000020       __imp___ftol               00401020     msvcrt:MSVCRT.dll
+ 0001:00000024       __imp__fabs                00401024     msvcrt:MSVCRT.dll
+ 0001:00000028       __imp__memset              00401028     msvcrt:MSVCRT.dll
+ 0001:0000002c       __imp__asin                0040102c     msvcrt:MSVCRT.dll
+ 0001:00000030       __imp__abs                 00401030     msvcrt:MSVCRT.dll
+ 0001:00000034       __imp__sin                 00401034     msvcrt:MSVCRT.dll
+ 0001:00000038       __imp__pow                 00401038     msvcrt:MSVCRT.dll
+ 0001:0000003c       __imp__exit                0040103c     msvcrt:MSVCRT.dll
+ 0001:00000040       __imp__sqrt                00401040     msvcrt:MSVCRT.dll
+ 0001:00000044       \177MSVCRT_NULL_THUNK_DATA 00401044     msvcrt:MSVCRT.dll
+ 0001:00000048       __imp__wglMakeCurrent@8    00401048     opengl32:OPENGL32.dll
+ 0001:0000004c       __imp__glMatrixMode@4      0040104c     opengl32:OPENGL32.dll
+ 0001:00000050       __imp__glFrustum@48        00401050     opengl32:OPENGL32.dll
+ 0001:00000054       __imp__glClear@4           00401054     opengl32:OPENGL32.dll
+ 0001:00000058       __imp__glViewport@16       00401058     opengl32:OPENGL32.dll
+ 0001:0000005c       __imp__wglCreateContext@4  0040105c     opengl32:OPENGL32.dll
+ 0001:00000060       __imp__glLoadIdentity@0    00401060     opengl32:OPENGL32.dll
+ 0001:00000064       \177OPENGL32_NULL_THUNK_DATA 00401064     opengl32:OPENGL32.dll
+ 0001:00000068       __imp__CreateWindowExA@48  00401068     user32:USER32.dll
+ 0001:0000006c       __imp__GetDC@4             0040106c     user32:USER32.dll
+ 0001:00000070       __imp__ShowCursor@4        00401070     user32:USER32.dll
+ 0001:00000074       __imp__GetAsyncKeyState@4  00401074     user32:USER32.dll
+ 0001:00000078       __imp__ChangeDisplaySettingsA@8 00401078     user32:USER32.dll
+ 0001:0000007c       \177USER32_NULL_THUNK_DATA 0040107c     user32:USER32.dll
+ 0001:00000080       __real@4@4000c000000000000000 00401080     ksynth:ksynth.obj
+ 0001:00000084       __real@4@3fff8000000000000000 00401084     ksynth:ksynth.obj
+ 0001:00000088       __real@8@3ffdaaaaaaaaaaaaa800 00401088     ksynth:ksynth.obj
+ 0001:00000090       __real@8@3ffeaaaaaaaaaaaaa800 00401090     ksynth:ksynth.obj
+ 0001:00000098       __real@8@40068000000000000000 00401098     ksynth:ksynth.obj
+ 0001:000000a0       __real@8@3fff8000000000000000 004010a0     ksynth:ksynth.obj
+ 0001:000000a8       __real@8@4006ff00000000000000 004010a8     ksynth:ksynth.obj
+ 0001:000000b0       __real@4@4000c90fda0000000000 004010b0     ksynth:ksynth.obj
+ 0001:000000b8       __real@8@4005a000000000000000 004010b8     ksynth:ksynth.obj
+ 0001:000000c0       __real@8@4004f000000000000000 004010c0     ksynth:ksynth.obj
+ 0001:000000c8       __real@8@4016940a700000000000 004010c8     ksynth:ksynth.obj
+ 0001:000000d0       __real@8@400482c28f5c28f5c000 004010d0     ksynth:ksynth.obj
+ 0001:000000d8       __real@8@4002c000000000000000 004010d8     ksynth:ksynth.obj
+ 0001:000000e0       __real@8@4019bebc200000000000 004010e0     ksynth:ksynth.obj
+ 0001:000000e8       __real@8@4002a000000000000000 004010e8     ksynth:ksynth.obj
+ 0001:000000f0       __real@8@4007fa00000000000000 004010f0     ksynth:ksynth.obj
+ 0001:000000f8       __real@8@40058000000000000000 004010f8     ksynth:ksynth.obj
+ 0001:00000100       __real@4@00000000000000000000 00401100     ksynth:ksynth.obj
+ 0001:00000108       __real@8@00000000000000000000 00401108     ksynth:ksynth.obj
+ 0001:00000110       __real@8@40028000000000000000 00401110     ksynth:ksynth.obj
+ 0001:00000118       __real@8@400dfa00000000000000 00401118     ksynth:ksynth.obj
+ 0001:00000120       __real@4@4002c000000000000000 00401120     ksynth:ksynth.obj
+ 0001:00000128       __real@8@3ff88102040810204000 00401128     ksynth:ksynth.obj
+ 0001:00000130       __real@8@3ff583126e978d4fe000 00401130     ksynth:ksynth.obj
+ 0001:00000140       _main                      00401140 f   intro.obj
+ 0001:00000170       ?Bezier@@YAMMMMMM@Z        00401170 f   ksynth:ksynth.obj
+ 0001:000001da       ?Calc_Pitch@@YAXHHMM@Z     004011da f   ksynth:ksynth.obj
+ 0001:000002a1       ?Calc_Envelope@@YAXHHMM@Z  004012a1 f   ksynth:ksynth.obj
+ 0001:00000390       ?Calc_Sin@@YAMHHM@Z        00401390 f   ksynth:ksynth.obj
+ 0001:000004d4       ?Brand@@YAIMI@Z            004014d4 f   ksynth:ksynth.obj
+ 0001:0000053e       ?Calc_Oscillo@@YAXHH@Z     0040153e f   ksynth:ksynth.obj
+ 0001:00000809       ?Update_KSynth@@YA_NXZ     00401809 f   ksynth:ksynth.obj
+ 0001:00000eff       ?Init_KSynth@@YAXXZ        00401eff f   ksynth:ksynth.obj
+ 0001:00001167       ?Exit_KSynth@@YAXXZ        00402167 f   ksynth:ksynth.obj
+ 0001:00001190       _sin                       00402190 f   msvcrt:MSVCRT.dll
+ 0001:00001196       _pow                       00402196 f   msvcrt:MSVCRT.dll
+ 0001:0000119c       _abs                       0040219c f   msvcrt:MSVCRT.dll
+ 0001:000011a2       _sqrt                      004021a2 f   msvcrt:MSVCRT.dll
+ 0001:000011a8       _asin                      004021a8 f   msvcrt:MSVCRT.dll
+ 0001:000011ae       __ftol                     004021ae f   msvcrt:MSVCRT.dll
+ 0001:000011b4       _fabs                      004021b4 f   msvcrt:MSVCRT.dll
+ 0001:000011ba       _memset                    004021ba f   msvcrt:MSVCRT.dll
+ 0001:000011c0       _exit                      004021c0 f   msvcrt:MSVCRT.dll
+ 0001:000011c6       _DirectSoundCreate@12      004021c6 f   dsound:DSOUND.dll
+ 0001:000011cc       __IMPORT_DESCRIPTOR_OPENGL32 004021cc     opengl32:OPENGL32.dll
+ 0001:000011e0       __IMPORT_DESCRIPTOR_MSVCRT 004021e0     msvcrt:MSVCRT.dll
+ 0001:000011f4       __IMPORT_DESCRIPTOR_KERNEL32 004021f4     kernel32:KERNEL32.dll
+ 0001:00001208       __IMPORT_DESCRIPTOR_USER32 00402208     user32:USER32.dll
+ 0001:0000121c       __IMPORT_DESCRIPTOR_GDI32  0040221c     gdi32:GDI32.dll
+ 0001:00001230       __IMPORT_DESCRIPTOR_DSOUND 00402230     dsound:DSOUND.dll
+ 0001:00001244       __NULL_IMPORT_DESCRIPTOR   00402244     opengl32:OPENGL32.dll
+ 0002:00000000       ?sample@@3PAEA             00403000     intro.obj
+ 0002:00000180       ?pattern@@3PAEA            00403180     intro.obj
+ 0002:00000240       ?mixers@@3PAEA             00403240     intro.obj
+ 0002:00000420       ?poly_channel@@3PAEA       00403420     intro.obj
+ 0002:00000428       ?ECART_NOTE@@3IA           00403428     intro.obj
+ 0002:00000430       ?DSoundPrimary@@3U_DSBUFFERDESC@@A 00403430     ksynth:ksynth.obj
+ 0002:00000448       ?DSoundFormatPrimary@@3UtWAVEFORMATEX@@A 00403448     ksynth:ksynth.obj
+ 0002:0000045c       ?OGL_WIDTH@@3HA            0040345c     ksynth:ksynth.obj
+ 0002:00000460       ?OGL_HEIGHT@@3HA           00403460     ksynth:ksynth.obj
+ 0002:00000464       ?OGL_BITS@@3HA             00403464     ksynth:ksynth.obj
+ 0002:00000470       ?DSoundTime@@3HA           00403470     ksynth:ksynth.obj
+ 0002:00000474       ?pattern_pos@@3HA          00403474     ksynth:ksynth.obj
+ 0002:00000478       ?DSound@@3PAUIDirectSound@@A 00403478     ksynth:ksynth.obj
+ 0002:0000047c       ?Output@@3PAY0EEOI@HA      0040347c     ksynth:ksynth.obj
+ 0002:0008a17c       ?mixer@@3PAMA              0048d17c     ksynth:ksynth.obj
+ 0002:0008a1bc       ?DSoundBuffer@@3PAUIDirectSoundBuffer@@A 0048d1bc     ksynth:ksynth.obj
+ 0002:0008a1c0       ?Oscillo@@3PAY02NA         0048d1c0     ksynth:ksynth.obj
+ 0002:0008a280       ?Pitch@@3PAY01NA           0048d280     ksynth:ksynth.obj
+ 0002:0008a300       ?mix_pos@@3HA              0048d300     ksynth:ksynth.obj
+ 0002:0008a304       ?note@@3HA                 0048d304     ksynth:ksynth.obj
+ 0002:0008a308       ?pattern_start@@3HA        0048d308     ksynth:ksynth.obj
+ 0002:0008a310       ?Envelop@@3PAY01NA         0048d310     ksynth:ksynth.obj
+ 0002:0008a390       ?g_hDC@@3PAUHDC__@@A       0048d390     ksynth:ksynth.obj
+ 0002:0008a394       ?samp_start@@3PAY01HA      0048d394     ksynth:ksynth.obj
+ 0002:0008a414       ?Time@@3MA                 0048d414     ksynth:ksynth.obj
+ 0002:0008a418       ?voice@@3PAEA              0048d418     ksynth:ksynth.obj
+ 0002:0008a420       ?csamp@@3PAEA              0048d420     ksynth:ksynth.obj
+ 0002:0008a424       ?Tstart@@3MA               0048d424     ksynth:ksynth.obj
+
+ entry point at        0001:00000140
+
+ Static symbols
+

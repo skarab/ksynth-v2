@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: intro - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP131.tmp" with contents
+[
+/nologo /ML /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/intro.pch" /YX /Fo"Release/" /Fd"Release/" /FD /QIfist /c 
+"G:\ksynth-v2\intro\src\intro.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP131.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+msvcrt.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib dsound.lib ksynth.lib /nologo /entry:"main" /subsystem:windows /incremental:no /pdb:"Release/intro.pdb" /map:"../bin/intro.map" /machine:I386 /nodefaultlib /out:"../bin/intro.exe" /MERGE:.text=.rdata 
+".\Release\intro.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP132.tmp"
+<h3>Output Window</h3>
+Compiling...
+intro.cpp
+Linking...
+LINK : warning LNK4078: multiple ".rdata" sections found with different attributes (60000020)
+
+
+
+<h3>Results</h3>
+intro.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,27 @@
+     ___
+     \_/      .tracker.
+    /___\     .ksynth-v2.
+   /(o.o)\    .knights' storm.
+   (_| |_)    .l_skarab@hotmail.com. 
+   / .|. \    .http://skarab24.kstorm.tk.
+ ----------------------------------------------------
+ about
+ ----------------------------------------------------
+   This is the KSynth-v2 tracker, maybe there is some
+  little bugs but I think it's safe enough to be
+  released. The only thing to know is the pattern
+  will be played 30 times (each track can be edited,
+  by modifying the volume, octave and how it will be
+  calculed/interpoled)... let see the thing by
+  yourself.	
+ ----------------------------------------------------
+ controls
+ ----------------------------------------------------
+  WXCVBN,SDGHJ (kb-fr)	play/write note
+  UP /DOWN		move to the next/last note
+  LEFT / RIGHT		change channel
+  Backspace  		del cur note on cur channel
+  Delete		del ... and move up all next
+  insert		toggle insert-notes mode
+  +/-			mod oct in cur channel/track
+ ----------------------------------------------------

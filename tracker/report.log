@@ -1,0 +1,21 @@
++- Started
+|  |  
+|  +- Framework::Init
+|  |  
+|  +- Window::Init
+|  |  +- Creating Client
+|  |  
+|  +- Sound::Init
+|  |  +- Creating SFX-Client
+|  |  
+|  +- Tracker launched !
+|  |  
+|  +- Sound::Exit
+|  |  +- Removing SFX-Client
+|  |  
+|  +- Window::Exit
+|  |  +- Removing Client
+|  |  
+|  +- Framework::Exit
+|  |  
++- Stopped
